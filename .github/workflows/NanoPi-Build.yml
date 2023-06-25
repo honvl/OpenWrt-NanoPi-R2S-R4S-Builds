@@ -33,7 +33,7 @@ on:
       model_R4S:
         description: 'Build R4S'
         type: boolean
-        default: true
+        default: false
       model_R2S:
         description: 'Build R2S'
         type: boolean
@@ -45,11 +45,11 @@ on:
       build_mini:
         description: 'Build mini seed'
         type: boolean
-        default: true
+        default: false
       build_full:
         description: 'Build full seed'
         type: boolean
-        default: false
+        default: true
 jobs:
   init:
     runs-on: ubuntu-22.04
